@@ -1,0 +1,8 @@
+# Simply triple de given list
+use 5.010;
+
+my @numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+my @tripled = map { $_ * 3 } @numbers;
+
+print "@tripled\n";
